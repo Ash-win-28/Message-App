@@ -1,4 +1,4 @@
-package com.ashwin.message_app.Configuration;
+package com.ashwin.message_app.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
