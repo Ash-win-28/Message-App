@@ -27,7 +27,7 @@ public class HomePageController {
         String userId = principal.getAttribute("name");
         List<Folders> userFolders = foldersRepository.findByUserId(userId);
         model.addAttribute("userFolders", userFolders);
-        
+
         return "inbox-page";
 
     }
